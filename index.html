@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB TOOL</title>
+    <link href="https://fonts.googleapis.com/css?family=Iceberg|Wallpoet|Nunito|Poiret+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Nunito', sans-serif;
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            color: #fff;
+            overflow: auto;
+        }
+        header {
+            font-family: 'Wallpoet', cursive;
+            background: #ff004c;
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5em;
+            color: #fff;
+            text-shadow: 0 0 20px #ff004c;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            z-index: 2;
+            position: relative;
+        }
+        .tool {
+            background: #1e1e2f;
+            border: 2px solid #ff004c;
+            border-radius: 12px;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            width: 220px;
+            transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 0 15px #ff004c;
+        }
+        .tool:hover {
+            transform: scale(1.1);
+            background: #ff004c;
+            box-shadow: 0 0 25px #ff79a8;
+        }
+        .tool img {
+            width: 100%;
+            height: 140px;
+            border-radius: 8px;
+        }
+        .tool a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-family: 'Iceberg', sans-serif;
+            background: #1e1e2f;
+            color: #18FFFF;
+            text-shadow: 0 0 10px #18FFFF;
+            font-size: 1.2em;
+            z-index: 2;
+            position: relative;
+        }
+        marquee {
+            margin: 20px 0;
+            color: #fff;
+            text-shadow: 0 0 10px red;
+            font-size: 1.5em;
+        }
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header>DARK SERIES XYLON</header>
+    <marquee behavior="alternate" scrollamount="10">Explore Your Favorite Tools Here!</marquee>
+    <div class="container">
+        <div class="tool">
+            <img src="XYLON/ssc.jpg" alt="Fake SSC">
+            <a href="fakessc.html">Fake SSC</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/hsc.jpg" alt="Fake HSC">
+            <a href="fakehscresult.html">Fake HSC</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/bomber.jpg" alt="bomber">
+            <a href="bomber.php" onclick="openIframe(this)">Fun SMS Bomber</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/tg.png" alt="Insta video download">
+            <a href="comingsoon.html" onclick="openIframe(this)">Telegram Chat ID</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/bl.jpg" alt="Banglalink Loan Info">
+            <a href="bl.php" onclick="openIframe(this)">Banglalink Loan Info</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/freehosting.jpg" alt="Free Html Hosting">
+            <a href="hoster.php" onclick="openIframe(this)">Free HTML Hosting</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/facematcher.jpg" alt="Face Matcher">
+            <a href="facematcher.php" onclick="openIframe(this)">Face Matcher</a>
+        </div>
+       
+        <div class="tool">
+            <img src="XYLON/nginfo.jpg" alt="Nagad Half Info">
+            <a href="ng.php" onclick="openIframe(this)">Nagad Half Info</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/tiktok.jpg" alt="Tiktok Downloader">
+            <a href="tiktok.php" onclick="openIframe(this)">Tiktok Downloader</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/yt.jpg" alt="YT Thumbnail Info">
+            <a href="yt.php" onclick="openIframe(this)">YT Thumbnail Downloader</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/quotes.jpg" alt="Quotes">
+            <a href="quotes.html" onclick="openIframe(this)">Quotes</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/linux.jpg" alt="Linux RDP">
+            <a href="https://linux-etyl.onrender.com/" onclick="openIframe(this)">Linux RDP</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/ngblock.jpg" alt="Nagad Account Blocker">
+            <a href="ngblock.html" onclick="openIframe(this)">Nagad Account Blocker</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/temp.jpg" alt="Temp Mail">
+            <a href="tempmail.html" onclick="openIframe(this)">Temp Mail</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/plp.jpg" alt="PLP File Downloader">
+            <a href="plp.html" onclick="openIframe(this)">PLP File Downloader</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/zipcracker.jpg" alt="Zip Cracker">
+            <a href="zip.html" onclick="openIframe(this)">Zip Cracker</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/rdp.jpg" alt="RDP">
+            <a href="rdp.html" onclick="openIframe(this)">RDP</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/link.jpg" alt="Link Shortener">
+            <a href="linkshortner.html" onclick="openIframe(this)">Link Shortener</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/cc.jpg" alt="CC GEN">
+            <a href="cc.php" onclick="openIframe(this)">CC GEN</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/fb.jpg" alt="FB Phishing Gen">
+            <a href="fbphishinggen.html" onclick="openIframe(this)">FB Phishing Gen</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/encryptor.jpg" alt="HTML & Python Encryptor">
+            <a href="codeenc.html" onclick="openIframe(this)">HTML & Python Encryptor</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/passlist.jpg" alt="Passlist Maker">
+            <a href="passlist.html" onclick="openIframe(this)">Passlist Maker</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/illegal.jpg" alt="Illegal GPT">
+            <a href="illegalgpt.html" onclick="openIframe(this)">Illegal GPT</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/malware.jpg" alt="Malware Command Website">
+            <a href="malware.html" onclick="openIframe(this)">Malware Command Website</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/bat.jpg" alt="Batch file">
+            <a href="https://tcs-batch-files.vercel.app/" onclick="openIframe(this)">Batch File</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/image.jpg" alt="Image Generator">
+            <a href="imagegen.html" onclick="openIframe(this)">Image Generator</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/bn.jpg" alt="Bkash Nagad Fake">
+            <a href="fakess.html" onclick="openIframe(this)">Bkash & Nagad Fake SS</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/tts.jpg" alt="Text to Speech">
+            <a href="texttospeech.php" onclick="openIframe(this)">Text to Speech Generators</a>
+        </div>
+        
+       <div class="tool">
+            <img src="XYLON/abp.jpg" alt="antibruteforcepassmaker">
+            <a href="antibruteforcepassmaker.html" onclick="openIframe(this)">Anti-bruteforce Password Gen</a>
+        </div>
+        
+               <div class="tool">
+            <img src="XYLON/bin.jpg" alt="binmaker">
+            <a href="binmaker.html" onclick="openIframe(this)">BIN Generator</a>
+        </div>
+        
+        <div class="tool">
+            <img src="XYLON/ddos.jpg" alt="ddos">
+            <a href="ddosserver.html" onclick="openIframe(this)">Simple Ddos Server</a>
+        </div>
+        
+        <div class="tool">
+            <img src="XYLON/gdrive.jpg" alt="gdrive download">
+            <a href="gdrivedownload.html" onclick="openIframe(this)">DIRECT DOWNLOAD GDRIVE</a>
+        </div>
+        
+          <div class="tool">
+            <img src="XYLON/ig.jpg" alt="igliker">
+            <a href="igliker.html" onclick="openIframe(this)">INSTAGRAM AUTO LIKER</a>
+        </div>
+        
+        <div class="tool">
+            <img src="XYLON/ip.jpg" alt="ipfinder">
+            <a href="https://ip-info-tcs.tiiny.io/" onclick="openIframe(this)">IP Locator</a>
+        </div>
+        
+        <div class="tool">
+            <img src="XYLON/library.jpg" alt="library">
+            <a href="books.html" onclick="openIframe(this)">Library- Dark History of BD🇧🇩</a>
+        </div>
+        
+        <div class="tool">
+            <img src="XYLON/hklibrary.jpg" alt="library">
+            <a href="hackingbook.html" onclick="openIframe(this)">Library- Hacking Books</a>
+        </div>
+        <div class="tool">
+            <img src="XYLON/fb.png" alt="dpcp">
+            <a href="dpcp.html" onclick="openIframe(this)">FB dp/cp Downloader</a>
+        </div>
+        
+        <div class="tool">
+            <img src="XYLON/lcphish.jpg" alt="dpcp">
+            <a href="lcphish.html" onclick="openIframe(this)">Location Phishing</a>
+        </div>
+        
+        <div class="tool">
+            <img src="XYLON/courses.jpg" alt="course">
+            <a href="freecourses.html" onclick="openIframe(this)">Free Courses</a>
+        </div>
+     <div class="tool">
+            <img src="XYLON/tbc.jpg" alt="tbc">
+            <a href="tbc.html" onclick="openIframe(this)">Termux Basic Course</a>
+        </div>
+        
+        <div class="tool">
+            <img src="XYLON/txt.jpg" alt="tbc">
+            <a href="txt.html" onclick="openIframe(this)">Text Repeater</a>
+        </div>
+        
+                  <div class="tool">
+            <img src="XYLON/ngphish.jpg" alt="ngphisher">
+            <a href="ngphisher.html" onclick="openIframe(this)">NAGAD PHISHING</a>
+        </div>
+        
+        
+        
+    </div>
+    <footer>© 2025 TOOL COLLECTION. POWERED BY <a href="https://t.me/ALL_CODE_X" style="color: #18FFFF; text-decoration: none;">DARK SERIES XYLON</a></footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false
+                },
+                "size": {
+                    "value": 3,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 3,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out"
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
